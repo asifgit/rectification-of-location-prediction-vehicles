@@ -38,7 +38,10 @@ Once the `conda` environment is setup, run the following commands to enter into 
 conda activate etsimeclfedgehackathon2022
 ```
 
-Once you entered into the environment, you are ready to launch the `jupyter notebook`. Just be sure to run the `command` in the correct directory where the jupyter notebook exists. Otherwise, you won't be able to see the jupter notebook on your browser at `localhost:8888`
+Once you entered into the environment, you are ready to launch the `jupyter notebook`. Just be sure to run the next `command` in the correct directory where the jupyter notebook exists. Otherwise, you won't be able to see the jupter notebook on your browser at `localhost:8888`. The command is:
+```cmd
+jupyter notebook
+```
 
 # Run the Jupyter notebook for running the tests
 Now, we are ready to run the `modified kalman filter` functions which enable the prediction of vehicle trajectories. These trajectories are loaded from the `vTracheaStore` database, which are then processed by the `rectification`-assisted modified kalman filter. These `predicted` and `rectified` vehicle coordinates `longitude`, `latitude` are then stored back in the `vTracheaStore`. Based on the tests, we then evaluate the `predicted` and `rectified` numerically as well as visually. 
