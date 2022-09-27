@@ -6,12 +6,12 @@ If anyone of you is interested, please drop a question or email me at malikasifm
 
 # Software/Prerequisites (required)
 - Software to be downloaded and installed:
- - PostgreSQL (version: 14.5) - [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads "click to download!")
- - Anaconda (version: 3) - [link](https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe "click to download!")
+  - PostgreSQL (version: 14.5) - [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads "click to download!")
+  - Anaconda (version: 3) - [link](https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe "click to download!")
 - If you're unable to find the files on GitHub, download the `files` / `fodlers` from here:
- - Database (vTracheaStore) - [link](https://drive.google.com/drive/folders/16MBugighC5pNmLLdyrHLhqAaC9EGKTqi "click to download!")
- - Conda environment (virtual environment) - [link](https://drive.google.com/drive/folders/1kZU1ue0PVcKzip1dJkL_BDRJA4o_3yPV "click to download!")
- - Jupyter notebooks (`rectification` code) - [link](https://drive.google.com/drive/folders/1PMiASfwVRIb0NwdgMDnD6l6EmMvIPJHi "click to download!")
+  - Database (vTracheaStore) - [link](https://drive.google.com/drive/folders/16MBugighC5pNmLLdyrHLhqAaC9EGKTqi "click to download!")
+  - Conda environment (virtual environment) - [link](https://drive.google.com/drive/folders/1kZU1ue0PVcKzip1dJkL_BDRJA4o_3yPV "click to download!")
+  - Jupyter notebooks (`rectification` code) - [link](https://drive.google.com/drive/folders/1PMiASfwVRIb0NwdgMDnD6l6EmMvIPJHi "click to download!")
 
 # Importing the vTracheaStore database
 Run following `cmd` / `terminal` commands to import the database in `PostgreSQL`. We used `postgres` as the value of `username_of_database`:
