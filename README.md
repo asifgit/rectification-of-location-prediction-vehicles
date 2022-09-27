@@ -1,5 +1,6 @@
 # Overvview (Rectification of Kalman filter based location predictions)
-This repository contains the necessary code to rectify the predicted vehicular locations based on a modified Kalman filter. The rectification process is made road aware by the use of a lane-shape, which improves the accuracy of predicted geo-coordinate. The geo-coordinates, i.e., long. and lat., were used instead of x and y coordinates. Several mathematical concepts were embedded into the Kalman filter and the Rectification process. Note: All of the code is open source and free to use.  <!-- The code for this work will be uploaded to GitHub (asifgit) after the research-article submission is accepted. -->
+This repository contains the necessary code to rectify the predicted vehicular locations based on a modified Kalman filter. The rectification process is made road aware by the use of a lane-shape, which improves the accuracy of predicted geo-coordinate. The geo-coordinates, i.e., long. and lat., were used instead of x and y coordinates. Several mathematical concepts were embedded into the Kalman filter and the Rectification process.
+*Note*: All of the code is open source and free to use.  <!-- The code for this work will be uploaded to GitHub (asifgit) after the research-article submission is accepted. -->
 If anyone of you is interested, please drop a question or email me at malikasifmahmoodawan@gmail.com.
 
 # Software/Prerequisites (required)
