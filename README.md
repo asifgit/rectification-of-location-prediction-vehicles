@@ -4,6 +4,12 @@ This repository contains the necessary code to rectify the predicted vehicular l
 **Note**: All of the code is open source and free to use.  <!-- The code for this work will be uploaded to GitHub (asifgit) after the research-article submission is accepted. -->
 If anyone of you is interested, please drop a question or email me at malikasifmahmoodawan@gmail.com.
 
+## Rectification
+
+
+## vTracheaStore
+![vTracheaStore Entity Relationship Diagram](Docs/vTracheaStore.jpg)
+
 # Software/Prerequisites (required)
 - Software to be downloaded and installed:
   - PostgreSQL (version: 14.5) - [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads "click to download!")
