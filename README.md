@@ -5,9 +5,11 @@ This repository contains the necessary code to rectify the predicted vehicular l
 If anyone of you is interested, please drop a question or email me at malikasifmahmoodawan@gmail.com.
 
 ## Rectification
-
+Below figure depicts the mechanism of rectification.
+![Rectification mechanism](Docs/rectification.png)
 
 ## vTracheaStore
+The figure below shows the entity relationship diagram of the roads, lanes, their shapes, junctions, and edges.
 ![vTracheaStore Entity Relationship Diagram](Docs/vTracheaStore.jpg)
 
 # Software/Prerequisites (required)
@@ -57,3 +59,7 @@ Now, we are ready to run the `modified kalman filter` functions which enable the
 
 # Conclusion:
 The `rectification`-assisted location prediction significantly enhances the performance of kalman filter location prediction. This solution uses the road/lane coordinates to rectify the predicted location, which we stored in the `vTracheaStore`.
+
+# Summarized model
+Below is the summarized and self explantory model of modified Kalman filter which shows the rectification integrated into the Kalman filter.
+![Modified Kalman Filter - Model](Docs/mkf.png)
