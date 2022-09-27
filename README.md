@@ -54,6 +54,12 @@ Once you entered into the environment, you are ready to launch the `jupyter note
 jupyter notebook
 ```
 
+# Update the `PostgreSQL` connection defined `Jupyter notebook`
+In the jupyter notebook, you need to change:
+- `vtracheastore` as database name.
+- `password` as you initialized.
+- `server` as localhost or `postgreSQL` server's `IP`.
+
 # Run the Jupyter notebook for running the tests
 Now, we are ready to run the `modified kalman filter` functions which enable the prediction of vehicle trajectories. These trajectories are loaded from the `vTracheaStore` database, which are then processed by the `rectification`-assisted modified kalman filter. These `predicted` and `rectified` vehicle coordinates `longitude`, `latitude` are then stored back in the `vTracheaStore`. Based on the tests, we then evaluate the `predicted` and `rectified` numerically as well as visually. 
 
