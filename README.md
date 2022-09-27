@@ -21,7 +21,7 @@ In the `psql` shell, create an empty database named as `vTracheaStore` as follow
 CREATE DATABASE vTracheaStore;
 ```
 
-The above command will take you to the `PostgreSQL` shell. Run the following command to import the downloaded vTracheaStore as follows. We used `E:\Akraino-ETSI-MEC-Hackathon\vTracheaStore\vTracheaStore.sql` as the value of `file_path_of_the_downloaded_pgsql_script.pgsql`:
+The above command will take you to the `PostgreSQL` shell. Run the following command to import the downloaded vTracheaStore as follows. We used `E:\Akraino-ETSI-MEC-Hackathon\vTracheaStore\vTracheaStore.pgsql` as the value of `file_path_of_the_downloaded_pgsql_script.pgsql`:
 ```cmd
 \i file_path_of_the_downloaded_pgsql_script.pgsql
 ```
