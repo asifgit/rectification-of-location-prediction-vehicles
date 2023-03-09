@@ -36,6 +36,10 @@ The above command will take you to the `PostgreSQL` shell. Run the following com
 ```cmd
 \i file_path_of_the_downloaded_pgsql_script.pgsql
 ```
+or try the below command with a path enclosed in single quots. Please be advised to try the file path both with forward/back-slashes
+```cmd
+\i 'file_path_of_the_downloaded_pgsql_script.pgsql'
+```
 Hurray, you have successfully imported the `vTracheaStore` database.
 
 # Create a virtual environment
